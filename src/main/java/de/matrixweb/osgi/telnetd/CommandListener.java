@@ -1,4 +1,4 @@
-package de.matrixweb.smaller.osgi.telnetd;
+package de.matrixweb.osgi.telnetd;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

@@ -97,7 +97,7 @@
         <configuration>
           <instructions>
             <Export-Package />
-            <Bundle-Activator>de.matrixweb.smaller.osgi.telnetd.Activator</Bundle-Activator>
+            <Bundle-Activator>de.matrixweb.osgi.telnetd.Activator</Bundle-Activator>
           </instructions>
         </configuration>
       </plugin>
@@ -118,19 +118,6 @@
                     <versionRange>[1.0,)</versionRange>
                     <goals>
                       <goal>enforce</goal>
-                    </goals>
-                  </pluginExecutionFilter>
-                  <action>
-                    <ignore />
-                  </action>
-                </pluginExecution>
-                <pluginExecution>
-                  <pluginExecutionFilter>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>exec-maven-plugin</artifactId>
-                    <versionRange>[1.2.1,)</versionRange>
-                    <goals>
-                      <goal>exec</goal>
                     </goals>
                   </pluginExecutionFilter>
                   <action>

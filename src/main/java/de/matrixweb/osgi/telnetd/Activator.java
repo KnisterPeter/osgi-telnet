@@ -1,4 +1,4 @@
-package de.matrixweb.smaller.osgi.telnetd;
+package de.matrixweb.osgi.telnetd;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;

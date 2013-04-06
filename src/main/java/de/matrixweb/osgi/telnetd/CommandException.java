@@ -1,4 +1,4 @@
-package de.matrixweb.smaller.osgi.telnetd;
+package de.matrixweb.osgi.telnetd;
 
 /**
  * @author marwol
